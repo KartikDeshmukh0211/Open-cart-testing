@@ -15,21 +15,39 @@ public class TC001_RegisterTest extends BaseClass {
 
     @Test
     void testRegister(){
-        HomePage hp = new HomePage(driver);
-        hp.clickMyAccount();
-        hp.clickRegister();
+        logger.info("***** Starting TC001_RegisterTest *****");
 
-        RegisterPage rp = new RegisterPage(driver);
-        rp.setFirstName(randomString().toUpperCase());
-        rp.setLastName(randomString().toUpperCase());
-        rp.setEmail(randomString() + "@gmail.com");
-        rp.setTelephone(randomNumber());
-        rp.setPassword(randomAlphaNumeric());
-        rp.clickAgreement();
-        rp.clickContinue();
+        try{
+            HomePage hp = new HomePage(driver);
+            hp.clickMyAccount();
+            logger.info("Clicked on My Account");
 
-        String message = rp.getConfirmationMessage();
+            hp.clickRegister();
+            logger.info("Clicked on Register");
 
-        Assert.assertEquals(message, "Your Account Has Been Created!");
+            RegisterPage rp = new RegisterPage(driver);
+            logger.info("Entering details for registration...");
+
+            rp.setFirstName(randomString().toUpperCase());
+            rp.setLastName(randomString().toUpperCase());
+            rp.setEmail(randomString() + "@gmail.com");
+            rp.setTelephone(randomNumber());
+            rp.setPassword(randomAlphaNumeric());
+            rp.clickAgreement();
+            rp.clickContinue();
+            logger.info("Clicked on Continue(register)");
+
+            logger.info("Validating Expected Message");
+            String message = rp.getConfirmationMessage();
+
+            Assert.assertEquals(message, "Your Account Has Been Created!");
+        } catch(Throwable e){
+            logger.error("Test Failed");
+            logger.debug("Debug logs...");
+            Assert.fail();
+        }
+
+        logger.info("***** Finished TC001_RegisterTest *****\n");
+        
     }
 }

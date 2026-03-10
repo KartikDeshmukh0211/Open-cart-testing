@@ -1,0 +1,8 @@
+17:45:04.642 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+17:45:04.814 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
+17:45:05.694 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
+17:45:05.697 [main] INFO  testCases.TC002_LoginTest - Entering details for login...
+17:45:05.986 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+17:45:05.986 [main] INFO  testCases.TC002_LoginTest - Validating Expected Message
+17:45:08.295 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****
+
