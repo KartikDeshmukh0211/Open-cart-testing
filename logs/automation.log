@@ -1,8 +1,19 @@
-17:45:04.642 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
-17:45:04.814 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
-17:45:05.694 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
-17:45:05.697 [main] INFO  testCases.TC002_LoginTest - Entering details for login...
-17:45:05.986 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
-17:45:05.986 [main] INFO  testCases.TC002_LoginTest - Validating Expected Message
-17:45:08.295 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****
+23:34:35.192 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - Clicked on My Account
+23:34:36.275 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - Clicked on Register
+23:34:36.283 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - Entering details for registration...
+23:34:36.605 [TestNG-tests-1] INFO  testCases.TC001_RegisterTest - Clicked on Continue(register)
+23:34:36.605 [TestNG-tests-1] INFO  testCases.TC001_RegisterTest - Validating Expected Message
+23:34:36.692 [TestNG-tests-1] INFO  testCases.TC001_RegisterTest - ***** Finished TC001_RegisterTest *****
+
+23:34:38.877 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - Clicked on Continue(register)
+23:34:38.877 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - Validating Expected Message
+23:34:38.959 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - ***** Finished TC001_RegisterTest *****
+
+23:34:41.861 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - ***** Starting TC001_RegisterTest *****
+23:34:42.001 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - Clicked on My Account
+23:34:42.984 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - Clicked on Register
+23:34:42.984 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - Entering details for registration...
+23:34:45.594 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - Clicked on Continue(register)
+23:34:45.594 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - Validating Expected Message
+23:34:45.704 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - ***** Finished TC001_RegisterTest *****
 
