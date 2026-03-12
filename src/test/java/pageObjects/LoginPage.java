@@ -18,9 +18,6 @@ public class LoginPage extends BasePage {
     @FindBy(xpath = "//input[@value='Login']")
     WebElement btnLogin;
 
-    @FindBy(xpath = "//h2[normalize-space()='My Account']")
-    WebElement msgConfirmation;
-
     public void enterEmail(String email){
         txtEmail.sendKeys(email);
     }
@@ -33,11 +30,4 @@ public class LoginPage extends BasePage {
         btnLogin.click();
     }
 
-    public String getConfirmationMessage(){
-        try{
-            return msgConfirmation.getText();
-        }catch(Exception e){
-            return e.getMessage();
-        }
-    }
 }

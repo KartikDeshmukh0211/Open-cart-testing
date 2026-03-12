@@ -1,0 +1,65 @@
+16:12:59.626 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+16:12:59.692 [main] INFO  testCases.TC003_LoginDDT - Clicked on My Account
+16:12:59.909 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login
+16:12:59.910 [main] INFO  testCases.TC003_LoginDDT - Entering details for login...
+16:13:00.098 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login Button
+16:13:00.099 [main] INFO  testCases.TC003_LoginDDT - Validating Expected Message
+16:13:10.140 [main] ERROR testCases.TC003_LoginDDT - Test Failed
+16:13:10.156 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+16:13:10.229 [main] INFO  testCases.TC003_LoginDDT - Clicked on My Account
+16:13:10.439 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login
+16:13:10.439 [main] INFO  testCases.TC003_LoginDDT - Entering details for login...
+16:13:11.251 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login Button
+16:13:11.251 [main] INFO  testCases.TC003_LoginDDT - Validating Expected Message
+16:13:21.297 [main] INFO  testCases.TC003_LoginDDT - ***** Finished TC003_LoginDDT *****
+
+16:13:21.297 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+16:13:21.386 [main] INFO  testCases.TC003_LoginDDT - Clicked on My Account
+16:13:21.587 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login
+16:13:21.588 [main] INFO  testCases.TC003_LoginDDT - Entering details for login...
+16:13:21.776 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login Button
+16:13:21.776 [main] INFO  testCases.TC003_LoginDDT - Validating Expected Message
+16:13:31.813 [main] ERROR testCases.TC003_LoginDDT - Test Failed
+16:13:31.813 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+16:13:31.932 [main] INFO  testCases.TC003_LoginDDT - Clicked on My Account
+16:13:32.165 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login
+16:13:32.165 [main] INFO  testCases.TC003_LoginDDT - Entering details for login...
+16:13:32.303 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login Button
+16:13:32.303 [main] INFO  testCases.TC003_LoginDDT - Validating Expected Message
+16:13:42.923 [main] INFO  testCases.TC003_LoginDDT - ***** Finished TC003_LoginDDT *****
+
+16:13:42.925 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+16:13:42.971 [main] INFO  testCases.TC003_LoginDDT - Clicked on My Account
+16:13:43.183 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login
+16:13:43.183 [main] INFO  testCases.TC003_LoginDDT - Entering details for login...
+16:13:43.361 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login Button
+16:13:43.361 [main] INFO  testCases.TC003_LoginDDT - Validating Expected Message
+16:13:53.419 [main] INFO  testCases.TC003_LoginDDT - ***** Finished TC003_LoginDDT *****
+
+16:21:55.818 [main] INFO  testCases.TC004_RegisterDDT - ***** Starting TC004_RegisterDDT *****
+16:21:55.899 [main] INFO  testCases.TC004_RegisterDDT - Clicked on My Account
+16:21:56.221 [main] INFO  testCases.TC004_RegisterDDT - Clicked on Register
+16:21:56.227 [main] INFO  testCases.TC004_RegisterDDT - Entering details for registration...
+16:21:57.067 [main] INFO  testCases.TC004_RegisterDDT - Clicked on Continue(register)
+16:21:57.067 [main] INFO  testCases.TC004_RegisterDDT - Validating Expected Message
+16:22:07.149 [main] ERROR testCases.TC004_RegisterDDT - Test Failed
+16:22:07.162 [main] INFO  testCases.TC004_RegisterDDT - ***** Starting TC004_RegisterDDT *****
+16:22:07.214 [main] INFO  testCases.TC004_RegisterDDT - Clicked on My Account
+16:22:07.435 [main] INFO  testCases.TC004_RegisterDDT - Clicked on Register
+16:22:07.436 [main] INFO  testCases.TC004_RegisterDDT - Entering details for registration...
+16:22:07.981 [main] INFO  testCases.TC004_RegisterDDT - Clicked on Continue(register)
+16:22:07.981 [main] INFO  testCases.TC004_RegisterDDT - Validating Expected Message
+16:22:18.003 [main] ERROR testCases.TC004_RegisterDDT - Test Failed
+16:22:20.975 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+16:22:21.045 [main] INFO  testCases.TC003_LoginDDT - Clicked on My Account
+16:22:21.263 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login
+16:22:21.266 [main] INFO  testCases.TC003_LoginDDT - Entering details for login...
+16:22:21.478 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login Button
+16:22:21.479 [main] INFO  testCases.TC003_LoginDDT - Validating Expected Message
+16:22:31.915 [main] ERROR testCases.TC003_LoginDDT - Test Failed
+16:22:31.931 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
+16:22:32.019 [main] INFO  testCases.TC003_LoginDDT - Clicked on My Account
+16:22:32.396 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login
+16:22:32.396 [main] INFO  testCases.TC003_LoginDDT - Entering details for login...
+16:22:32.598 [main] INFO  testCases.TC003_LoginDDT - Clicked on Login Button
+16:22:32.598 [main] INFO  testCases.TC003_LoginDDT - Validating Expected Message

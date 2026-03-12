@@ -1,4 +1,28 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 19.451 s - in TestSuite
+Tests run: 7, Failures: 6, Errors: 0, Skipped: 0, Time elapsed: 47.527 s <<< FAILURE! - in TestSuite
+testRegisterDDT(testCases.TC004_RegisterDDT)  Time elapsed: 11.348 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at testCases.TC004_RegisterDDT.testRegisterDDT(TC004_RegisterDDT.java:43)
+
+testRegisterDDT(testCases.TC004_RegisterDDT)  Time elapsed: 10.839 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at testCases.TC004_RegisterDDT.testRegisterDDT(TC004_RegisterDDT.java:43)
+
+testLoginDDT(testCases.TC003_LoginDDT)  Time elapsed: 10.956 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at testCases.TC003_LoginDDT.testLoginDDT(TC003_LoginDDT.java:64)
+
+testLoginDDT(testCases.TC003_LoginDDT)  Time elapsed: 0.069 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at testCases.TC003_LoginDDT.testLoginDDT(TC003_LoginDDT.java:64)
+
+testLoginDDT(testCases.TC003_LoginDDT)  Time elapsed: 0.003 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at testCases.TC003_LoginDDT.testLoginDDT(TC003_LoginDDT.java:64)
+
+testLoginDDT(testCases.TC003_LoginDDT)  Time elapsed: 0.002 s  <<< FAILURE!
+java.lang.AssertionError: null
+	at testCases.TC003_LoginDDT.testLoginDDT(TC003_LoginDDT.java:64)
+

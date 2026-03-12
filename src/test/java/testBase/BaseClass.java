@@ -1,6 +1,9 @@
 package testBase;
 
+import java.io.FileInputStream;
+import java.io.IOException;
 import java.time.Duration;
+import java.util.Properties;
 
 import org.apache.commons.lang3.RandomStringUtils;
 import org.openqa.selenium.WebDriver;
@@ -24,10 +27,16 @@ import org.apache.logging.log4j.Logger; // only import this log4j
 public class BaseClass {
     public WebDriver driver;
     public Logger logger; // import this from log4j.......
+    public Properties p;
 
     @BeforeClass
     @Parameters({"os", "browser"})
-    public void setup(String os, String br){
+    public void setup(String os, String br) throws IOException{
+        //Loading properties...
+        FileInputStream file = new FileInputStream("./src/test/resources/config.properties");
+        p = new Properties();
+        p.load(file);
+        
         logger = LogManager.getLogger(this.getClass()); // for logger configurationm
         
         switch(br.toString()){
@@ -41,7 +50,8 @@ public class BaseClass {
         driver.manage().deleteAllCookies();
         driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        driver.get("https://tutorialsninja.com/demo/");
+        driver.get(p.getProperty("appURL"));
+        // driver.get("https://tutorialsninja.com/demo/");
         driver.manage().window().maximize();
     }
 

@@ -5,6 +5,7 @@ import org.testng.annotations.Test;
 
 import pageObjects.HomePage;
 import pageObjects.LoginPage;
+import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 
 public class TC002_LoginTest extends BaseClass {
@@ -29,8 +30,9 @@ public class TC002_LoginTest extends BaseClass {
             logger.info("Clicked on Login Button");
 
             logger.info("Validating Expected Message");
-            String msg = lp.getConfirmationMessage();
-            Assert.assertEquals(msg, "My Account");
+            MyAccountPage mcp = new MyAccountPage(driver);
+            boolean target = mcp.getConfirmationMessage();
+            Assert.assertEquals(target, true, "Login Faileddd.....");
         }catch(Throwable e){
             logger.error("Test Failed");
             Assert.fail();

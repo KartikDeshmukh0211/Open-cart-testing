@@ -1,8 +1,13 @@
 pageObjects\RegisterPage.class
 testCases\loginTest.class
 testCases\TC001_RegisterTest.class
+pageObjects\HomePage.class
+pageObjects\MyAccountPage.class
+utilities\ExcelUtility.class
+testBase\BaseClass.class
+testCases\TC004_RegisterDDT.class
+testCases\TC002_LoginTest.class
 pageObjects\LoginPage.class
 pageObjects\BasePage.class
-pageObjects\HomePage.class
-testBase\BaseClass.class
-testCases\TC002_LoginTest.class
+testCases\TC003_LoginDDT.class
+utilities\DataProviders.class
