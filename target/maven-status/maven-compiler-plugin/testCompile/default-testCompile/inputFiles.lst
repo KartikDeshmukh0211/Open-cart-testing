@@ -3,6 +3,7 @@ D:\JAVA\selenium-project\src\test\java\testBase\BaseClass.java
 D:\JAVA\selenium-project\src\test\java\pageObjects\MyAccountPage.java
 D:\JAVA\selenium-project\src\test\java\pageObjects\RegisterPage.java
 D:\JAVA\selenium-project\src\test\java\testCases\TC002_LoginTest.java
+D:\JAVA\selenium-project\src\test\java\utilities\ExtentReportManager.java
 D:\JAVA\selenium-project\src\test\java\utilities\DataProviders.java
 D:\JAVA\selenium-project\src\test\java\utilities\ExcelUtility.java
 D:\JAVA\selenium-project\src\test\java\pageObjects\LoginPage.java

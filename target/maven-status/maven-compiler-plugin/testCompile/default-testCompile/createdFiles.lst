@@ -10,4 +10,5 @@ testCases\TC002_LoginTest.class
 pageObjects\LoginPage.class
 pageObjects\BasePage.class
 testCases\TC003_LoginDDT.class
+utilities\ExtentReportManager.class
 utilities\DataProviders.class

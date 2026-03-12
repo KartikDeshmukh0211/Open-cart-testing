@@ -13,7 +13,7 @@ import testBase.BaseClass;
 */
 public class TC001_RegisterTest extends BaseClass {
 
-    @Test
+    @Test(groups = {"Regression", "Master"})
     void testRegister(){
         logger.info("***** Starting TC001_RegisterTest *****");
 

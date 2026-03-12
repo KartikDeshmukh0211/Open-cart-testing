@@ -1,8 +1,40 @@
-16:22:40.595 [main] INFO  testCases.TC003_LoginDDT - ***** Finished TC003_LoginDDT *****
+21:43:53.358 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+21:43:53.367 [main] INFO  testCases.TC002_LoginTest - Validating Expected Message
+21:43:54.157 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****
 
-16:22:40.601 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
-16:22:40.669 [main] ERROR testCases.TC003_LoginDDT - Test Failed
-16:22:40.670 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
-16:22:40.672 [main] ERROR testCases.TC003_LoginDDT - Test Failed
-16:22:40.673 [main] INFO  testCases.TC003_LoginDDT - ***** Starting TC003_LoginDDT *****
-16:22:40.675 [main] ERROR testCases.TC003_LoginDDT - Test Failed
+21:44:24.529 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+21:44:24.649 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
+21:44:24.877 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
+21:44:24.879 [main] INFO  testCases.TC002_LoginTest - Entering details for login...
+21:44:25.723 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+21:44:25.723 [main] INFO  testCases.TC002_LoginTest - Validating Expected Message
+21:44:35.789 [main] ERROR testCases.TC002_LoginTest - Test Failed
+21:48:40.379 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+21:48:40.448 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
+21:48:40.676 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
+21:48:40.678 [main] INFO  testCases.TC002_LoginTest - Entering details for login...
+21:48:41.437 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+21:48:41.437 [main] INFO  testCases.TC002_LoginTest - Validating Expected Message
+21:48:51.462 [main] ERROR testCases.TC002_LoginTest - Test Failed
+21:50:40.263 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+21:50:40.324 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
+21:50:40.577 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
+21:50:40.578 [main] INFO  testCases.TC002_LoginTest - Entering details for login...
+21:50:40.762 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+21:50:40.762 [main] INFO  testCases.TC002_LoginTest - Validating Expected Message
+21:50:51.613 [main] ERROR testCases.TC002_LoginTest - Test Failed
+21:51:13.488 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+21:51:13.593 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
+21:51:13.829 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
+21:51:13.831 [main] INFO  testCases.TC002_LoginTest - Entering details for login...
+21:51:14.002 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+21:51:14.002 [main] INFO  testCases.TC002_LoginTest - Validating Expected Message
+21:51:24.221 [main] ERROR testCases.TC002_LoginTest - Test Failed
+21:51:40.570 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+21:51:40.644 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
+21:51:40.928 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
+21:51:40.930 [main] INFO  testCases.TC002_LoginTest - Entering details for login...
+21:51:41.131 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+21:51:41.131 [main] INFO  testCases.TC002_LoginTest - Validating Expected Message
+21:51:42.080 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****
+

@@ -9,7 +9,7 @@ import pageObjects.MyAccountPage;
 import testBase.BaseClass;
 
 public class TC002_LoginTest extends BaseClass {
-    @Test
+    @Test(groups = {"Sanity", "Master"})
     public void testLogin(){
         logger.info("***** Starting TC002_LoginTest *****");
         try{
@@ -23,8 +23,11 @@ public class TC002_LoginTest extends BaseClass {
             LoginPage lp = new LoginPage(driver);
             logger.info("Entering details for login...");
 
-            lp.enterEmail("kartikdeshmukh58@gmail.com");
-            lp.enterPassword("123456");
+            // lp.enterEmail("kartikdeshmukh58@gmail.com");
+            // lp.enterPassword("123456");
+
+            lp.enterEmail(p.getProperty("email"));
+            lp.enterPassword(p.getProperty("password"));
 
             lp.clickLogin();
             logger.info("Clicked on Login Button");

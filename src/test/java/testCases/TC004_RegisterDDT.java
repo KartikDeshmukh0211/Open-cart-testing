@@ -9,7 +9,7 @@ import testBase.BaseClass;
 import utilities.DataProviders;
 
 public class TC004_RegisterDDT extends BaseClass {
-    @Test(dataProvider = "RegisterData", dataProviderClass = DataProviders.class)
+    @Test(dataProvider = "RegisterData", dataProviderClass = DataProviders.class, groups = {"DataDriven"})
     void testRegisterDDT(String email, String password){
         logger.info("***** Starting TC004_RegisterDDT *****");
 
