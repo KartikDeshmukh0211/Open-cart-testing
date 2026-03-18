@@ -2,24 +2,26 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-03-18T02:20:02 IST" name="Suite" finished-at="2026-03-18T02:20:17 IST" duration-ms="15726">
+  <suite started-at="2026-03-18T18:43:47 IST" name="Suite" finished-at="2026-03-18T18:43:59 IST" duration-ms="11813">
     <groups>
       <group name="Master">
-        <method signature="TC001_RegisterTest.testRegister()[pri:0, instance:testCases.TC001_RegisterTest@352ff4da]" name="testRegister" class="testCases.TC001_RegisterTest"/>
-        <method signature="TC001_RegisterTest.testRegister()[pri:0, instance:testCases.TC001_RegisterTest@7fc4780b]" name="testRegister" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.testRegister()[pri:0, instance:testCases.TC001_RegisterTest@58594a11]" name="testRegister" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@68f1b17f]" name="testLogin" class="testCases.TC002_LoginTest"/>
       </group> <!-- Master -->
+      <group name="Sanity">
+        <method signature="TC002_LoginTest.testLogin()[pri:0, instance:testCases.TC002_LoginTest@68f1b17f]" name="testLogin" class="testCases.TC002_LoginTest"/>
+      </group> <!-- Sanity -->
       <group name="Regression">
-        <method signature="TC001_RegisterTest.testRegister()[pri:0, instance:testCases.TC001_RegisterTest@352ff4da]" name="testRegister" class="testCases.TC001_RegisterTest"/>
-        <method signature="TC001_RegisterTest.testRegister()[pri:0, instance:testCases.TC001_RegisterTest@7fc4780b]" name="testRegister" class="testCases.TC001_RegisterTest"/>
+        <method signature="TC001_RegisterTest.testRegister()[pri:0, instance:testCases.TC001_RegisterTest@58594a11]" name="testRegister" class="testCases.TC001_RegisterTest"/>
       </group> <!-- Regression -->
     </groups>
-    <test started-at="2026-03-18T02:20:02 IST" name="chromeTest" finished-at="2026-03-18T02:20:11 IST" duration-ms="8986">
-      <class name="testCases.TC001_RegisterTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_RegisterTest@352ff4da]" started-at="2026-03-18T02:20:02 IST" name="setup" finished-at="2026-03-18T02:20:05 IST" duration-ms="3125" status="PASS">
+    <test started-at="2026-03-18T18:43:47 IST" name="test1" finished-at="2026-03-18T18:43:59 IST" duration-ms="11813">
+      <class name="testCases.TC002_LoginTest">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC002_LoginTest@68f1b17f]" started-at="2026-03-18T18:43:55 IST" name="setup" finished-at="2026-03-18T18:43:57 IST" duration-ms="1938" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Linux]]>
+                <![CDATA[Windows]]>
               </value>
             </param>
             <param index="1">
@@ -31,43 +33,41 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testRegister()[pri:0, instance:testCases.TC001_RegisterTest@352ff4da]" started-at="2026-03-18T02:20:05 IST" name="testRegister" finished-at="2026-03-18T02:20:10 IST" duration-ms="5655" status="PASS">
+        <test-method signature="testLogin()[pri:0, instance:testCases.TC002_LoginTest@68f1b17f]" started-at="2026-03-18T18:43:57 IST" name="testLogin" finished-at="2026-03-18T18:43:59 IST" duration-ms="1598" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testRegister -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_RegisterTest@352ff4da]" started-at="2026-03-18T02:20:10 IST" name="tearDown" finished-at="2026-03-18T02:20:11 IST" duration-ms="84" status="PASS">
+        </test-method> <!-- testLogin -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC002_LoginTest@68f1b17f]" started-at="2026-03-18T18:43:59 IST" name="tearDown" finished-at="2026-03-18T18:43:59 IST" duration-ms="198" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- testCases.TC001_RegisterTest -->
-    </test> <!-- chromeTest -->
-    <test started-at="2026-03-18T02:20:11 IST" name="fireFoxTest" finished-at="2026-03-18T02:20:17 IST" duration-ms="6500">
+      </class> <!-- testCases.TC002_LoginTest -->
       <class name="testCases.TC001_RegisterTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_RegisterTest@7fc4780b]" started-at="2026-03-18T02:20:11 IST" name="setup" finished-at="2026-03-18T02:20:14 IST" duration-ms="3070" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:testCases.TC001_RegisterTest@58594a11]" started-at="2026-03-18T18:43:47 IST" name="setup" finished-at="2026-03-18T18:43:52 IST" duration-ms="4176" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Linux]]>
+                <![CDATA[Windows]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[chrome]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testRegister()[pri:0, instance:testCases.TC001_RegisterTest@7fc4780b]" started-at="2026-03-18T02:20:14 IST" name="testRegister" finished-at="2026-03-18T02:20:17 IST" duration-ms="2804" status="PASS">
+        <test-method signature="testRegister()[pri:0, instance:testCases.TC001_RegisterTest@58594a11]" started-at="2026-03-18T18:43:52 IST" name="testRegister" finished-at="2026-03-18T18:43:55 IST" duration-ms="3450" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testRegister -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_RegisterTest@7fc4780b]" started-at="2026-03-18T02:20:17 IST" name="tearDown" finished-at="2026-03-18T02:20:17 IST" duration-ms="622" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:testCases.TC001_RegisterTest@58594a11]" started-at="2026-03-18T18:43:55 IST" name="tearDown" finished-at="2026-03-18T18:43:55 IST" duration-ms="215" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- testCases.TC001_RegisterTest -->
-    </test> <!-- fireFoxTest -->
+    </test> <!-- test1 -->
   </suite> <!-- Suite -->
 </testng-results>

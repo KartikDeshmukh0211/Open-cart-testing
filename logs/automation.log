@@ -1,14 +1,28 @@
-02:20:06.354 [main] INFO  testCases.TC001_RegisterTest - Clicked on Register
-02:20:06.359 [main] INFO  testCases.TC001_RegisterTest - Entering details for registration...
-02:20:06.838 [main] INFO  testCases.TC001_RegisterTest - Clicked on Continue(register)
-02:20:06.838 [main] INFO  testCases.TC001_RegisterTest - Validating Expected Message
-02:20:10.950 [main] INFO  testCases.TC001_RegisterTest - ***** Finished TC001_RegisterTest *****
+16:50:18.410 [main] INFO  testCases.TC001_RegisterTest - Clicked on Continue(register)
+16:50:18.415 [main] INFO  testCases.TC001_RegisterTest - Validating Expected Message
+16:50:18.450 [main] INFO  testCases.TC001_RegisterTest - ***** Finished TC001_RegisterTest *****
 
-02:20:14.355 [main] INFO  testCases.TC001_RegisterTest - ***** Starting TC001_RegisterTest *****
-02:20:14.460 [main] INFO  testCases.TC001_RegisterTest - Clicked on My Account
-02:20:14.999 [main] INFO  testCases.TC001_RegisterTest - Clicked on Register
-02:20:15.000 [main] INFO  testCases.TC001_RegisterTest - Entering details for registration...
-02:20:17.130 [main] INFO  testCases.TC001_RegisterTest - Clicked on Continue(register)
-02:20:17.131 [main] INFO  testCases.TC001_RegisterTest - Validating Expected Message
-02:20:17.158 [main] INFO  testCases.TC001_RegisterTest - ***** Finished TC001_RegisterTest *****
+16:50:21.312 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+16:50:21.484 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
+16:50:22.073 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
+16:50:22.075 [main] INFO  testCases.TC002_LoginTest - Entering details for login...
+16:50:22.542 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+16:50:22.542 [main] INFO  testCases.TC002_LoginTest - Validating Expected Message
+16:50:24.747 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****
+
+18:43:52.118 [main] INFO  testCases.TC001_RegisterTest - ***** Starting TC001_RegisterTest *****
+18:43:52.379 [main] INFO  testCases.TC001_RegisterTest - Clicked on My Account
+18:43:53.006 [main] INFO  testCases.TC001_RegisterTest - Clicked on Register
+18:43:53.009 [main] INFO  testCases.TC001_RegisterTest - Entering details for registration...
+18:43:55.493 [main] INFO  testCases.TC001_RegisterTest - Clicked on Continue(register)
+18:43:55.493 [main] INFO  testCases.TC001_RegisterTest - Validating Expected Message
+18:43:55.553 [main] INFO  testCases.TC001_RegisterTest - ***** Finished TC001_RegisterTest *****
+
+18:43:57.738 [main] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+18:43:57.815 [main] INFO  testCases.TC002_LoginTest - Clicked on My Account
+18:43:58.120 [main] INFO  testCases.TC002_LoginTest - Clicked on Login
+18:43:58.122 [main] INFO  testCases.TC002_LoginTest - Entering details for login...
+18:43:59.293 [main] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+18:43:59.293 [main] INFO  testCases.TC002_LoginTest - Validating Expected Message
+18:43:59.336 [main] INFO  testCases.TC002_LoginTest - ***** Finished TC002_LoginTest *****
 
