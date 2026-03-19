@@ -9,12 +9,12 @@ public class HomePage extends BasePage{
     // WebDriver driver;
 
     //constructor
-    public HomePage(WebDriver driver){
-        // this.driver = driver;
-        // PageFactory.initElements(driver, this); // this is madatory
+    // public HomePage(WebDriver driver){
+    //     // this.driver = driver;
+    //     // PageFactory.initElements(driver, this); // this is madatory
 
-        super(driver);
-    }
+    //     super(driver);
+    // }
 
     // Locators
     @FindBy(xpath = "//ul[@class='list-inline']//li[@class='dropdown']")

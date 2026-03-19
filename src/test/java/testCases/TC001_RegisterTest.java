@@ -18,14 +18,14 @@ public class TC001_RegisterTest extends BaseClass {
         logger.info("***** Starting TC001_RegisterTest *****");
 
         try{
-            HomePage hp = new HomePage(driver);
+            HomePage hp = new HomePage();
             hp.clickMyAccount();
             logger.info("Clicked on My Account");
 
             hp.clickRegister();
             logger.info("Clicked on Register");
 
-            RegisterPage rp = new RegisterPage(driver);
+            RegisterPage rp = new RegisterPage();
             logger.info("Entering details for registration...");
 
             rp.setFirstName(randomString().toUpperCase());

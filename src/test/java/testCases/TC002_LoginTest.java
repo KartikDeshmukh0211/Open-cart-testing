@@ -13,14 +13,14 @@ public class TC002_LoginTest extends BaseClass {
     public void testLogin(){
         logger.info("***** Starting TC002_LoginTest *****");
         try{
-            HomePage hp = new HomePage(driver);
+            HomePage hp = new HomePage();
             hp.clickMyAccount();
             logger.info("Clicked on My Account");
 
             hp.clickLogin();
             logger.info("Clicked on Login");
 
-            LoginPage lp = new LoginPage(driver);
+            LoginPage lp = new LoginPage();
             logger.info("Entering details for login...");
 
             // lp.enterEmail("kartikdeshmukh58@gmail.com");
@@ -33,7 +33,7 @@ public class TC002_LoginTest extends BaseClass {
             logger.info("Clicked on Login Button");
 
             logger.info("Validating Expected Message");
-            MyAccountPage mcp = new MyAccountPage(driver);
+            MyAccountPage mcp = new MyAccountPage();
             boolean target = mcp.getConfirmationMessage();
             Assert.assertEquals(target, true, "Login Faileddd.....");
         }catch(Throwable e){

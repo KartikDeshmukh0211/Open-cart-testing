@@ -20,6 +20,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
+import org.openqa.selenium.support.ThreadGuard;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -35,7 +36,28 @@ import org.apache.logging.log4j.Logger; // only import this log4j
 */
 
 public class BaseClass {
-    public static WebDriver driver; // static to avoid conflict during captureScreen
+    // public static WebDriver driver; // static to avoid conflict during captureScreen but this will create conflicts in parallel execution so we will use thredlocal
+
+    public static ThreadLocal<WebDriver> driver = new ThreadLocal<>();
+    /*
+        it will act like a map
+        driver(it is a variable here) = {
+            thread1 ---> new chromeDriver();
+            thread2 ---> new edgeDriver();
+            thread3 ---> new fireFoxDriver();
+        }
+    */
+    // we need to create getters and setter for threadLocal
+
+    // Setter with ThreadGuard as some time threadlocal can still create conflits
+    public static void setDriver(WebDriver driverInstance){
+        driver.set(ThreadGuard.protect(driverInstance));
+    }
+
+    public static WebDriver getDriver(){
+        return driver.get();
+    }
+    
     public Logger logger; // import this from log4j.......
     public Properties p;
 
@@ -46,6 +68,8 @@ public class BaseClass {
         FileInputStream file = new FileInputStream("./src/test/resources/config.properties");
         p = new Properties();
         p.load(file);
+
+        WebDriver driverInstance;
         
         logger = LogManager.getLogger(this.getClass()); // for logger configurationm
         
@@ -73,29 +97,34 @@ public class BaseClass {
                 default : System.out.println("Invalid Browser"); return;
             }
 
-            driver = new RemoteWebDriver(new URI("http://localhost:4444/wd/hub").toURL(), capabilities);
+            driverInstance = new RemoteWebDriver(new URI("http://localhost:4444/wd/hub").toURL(), capabilities);
         }else{
             switch(br.toLowerCase()){
-                case "chrome" : driver = new ChromeDriver(); break;
-                case "edge" : driver = new EdgeDriver(); break;
-                case "firefox" : driver = new FirefoxDriver(); break;
+                case "chrome" : driverInstance = new ChromeDriver(); break;
+                case "edge" : driverInstance = new EdgeDriver(); break;
+                case "firefox" : driverInstance = new FirefoxDriver(); break;
                 default : System.out.println("Invalid Browser"); return;
             }
         }
+
+        setDriver(driverInstance);
         
         
         // driver = new ChromeDriver();
-        driver.manage().deleteAllCookies();
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+        getDriver().manage().deleteAllCookies();
+        getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 
-        driver.get(p.getProperty("appURL"));
+        getDriver().get(p.getProperty("appURL"));
         // driver.get("https://tutorialsninja.com/demo/");
-        driver.manage().window().maximize();
+        getDriver().manage().window().maximize();
     }
 
     @AfterClass(groups = {"Sanity", "Regression", "Master"})
     public void tearDown(){
-        driver.quit();
+        if (getDriver() != null) {
+            getDriver().quit();
+            driver.remove();
+        }
     }
 
     public String randomString(){
@@ -113,7 +142,7 @@ public class BaseClass {
     public String captureScreen(String tname) throws IOException {
         String timeStamp = new SimpleDateFormat("yyyyMMddhhmmss").format(new Date());
 
-        TakesScreenshot takesScreenshot = (TakesScreenshot) driver;
+        TakesScreenshot takesScreenshot = (TakesScreenshot) getDriver();
         File sourceFile = takesScreenshot.getScreenshotAs(OutputType.FILE);
 
         String targetFilePath = System.getProperty("user.dir") + "/screenshots/" + tname + "_" + timeStamp + ".png";

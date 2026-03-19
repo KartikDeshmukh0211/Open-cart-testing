@@ -3,13 +3,22 @@ package pageObjects;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.support.PageFactory;
 
+import testBase.BaseClass;
+
 public class BasePage {
     WebDriver driver;
 
-    public BasePage(WebDriver driver){
-        this.driver = driver;
+    // since we are using threadlocal, we dont need to pass dirver when we calling parent class constructor....
+    public BasePage(){
+        this.driver = BaseClass.getDriver();
         PageFactory.initElements(driver, this);
     }
+
+    
+    // public BasePage(WebDriver driver){
+    //     this.driver = driver;
+    //     PageFactory.initElements(driver, this);
+    // }
 }
 
 /*

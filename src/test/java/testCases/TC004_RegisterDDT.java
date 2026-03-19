@@ -14,14 +14,14 @@ public class TC004_RegisterDDT extends BaseClass {
         logger.info("***** Starting TC004_RegisterDDT *****");
 
         try{
-            HomePage hp = new HomePage(driver);
+            HomePage hp = new HomePage();
             hp.clickMyAccount();
             logger.info("Clicked on My Account");
 
             hp.clickRegister();
             logger.info("Clicked on Register");
 
-            RegisterPage rp = new RegisterPage(driver);
+            RegisterPage rp = new RegisterPage();
             logger.info("Entering details for registration...");
 
             rp.setFirstName(randomString().toUpperCase());

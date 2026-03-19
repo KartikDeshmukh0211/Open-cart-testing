@@ -7,10 +7,10 @@ import org.openqa.selenium.support.FindBy;
 public class RegisterPage extends BasePage {
 
     // Constructor
-    public RegisterPage(WebDriver driver){
+    // public RegisterPage(WebDriver driver){
 
-        super(driver);
-    }
+    //     super(driver);
+    // }
 
     // Locators
     @FindBy(xpath = "//input[@id='input-firstname']")

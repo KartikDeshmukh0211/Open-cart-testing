@@ -23,14 +23,14 @@ public class TC003_LoginDDT extends BaseClass {
     public void testLoginDDT(String email, String password, String result){
         logger.info("***** Starting TC003_LoginDDT *****");
         try{
-            HomePage hp = new HomePage(driver);
+            HomePage hp = new HomePage();
             hp.clickMyAccount();
             logger.info("Clicked on My Account");
 
             hp.clickLogin();
             logger.info("Clicked on Login");
 
-            LoginPage lp = new LoginPage(driver);
+            LoginPage lp = new LoginPage();
             logger.info("Entering details for login...");
 
             lp.enterEmail(email);
@@ -40,7 +40,7 @@ public class TC003_LoginDDT extends BaseClass {
             logger.info("Clicked on Login Button");
 
             logger.info("Validating Expected Message");
-            MyAccountPage mcp = new MyAccountPage(driver);
+            MyAccountPage mcp = new MyAccountPage();
             boolean target = mcp.getConfirmationMessage();
 
             if(result.equalsIgnoreCase("Valid")){

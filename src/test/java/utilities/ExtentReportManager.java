@@ -27,6 +27,7 @@ public class ExtentReportManager implements ITestListener {
     public ExtentTest test;
 
     String repName;
+    private static boolean isReportOpened = false;
 
     public void onStart(ITestContext testContext) {
 
@@ -105,11 +106,22 @@ public class ExtentReportManager implements ITestListener {
         String pathOfExtentReport = System.getProperty("user.dir") + "/reports/" + repName;
         File extentReport = new File(pathOfExtentReport);
 
-        try {
-            Desktop.getDesktop().browse(extentReport.toURI());
-        } catch (IOException e) {
-            e.printStackTrace();
+        if (!isReportOpened) {
+            isReportOpened = true;
+            try {
+                Desktop.getDesktop().browse(extentReport.toURI());
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
         }
+        
+        
+        // this is opening multiple tabs in parallel testing
+        // try {
+        //     Desktop.getDesktop().browse(extentReport.toURI());
+        // } catch (IOException e) {
+        //     e.printStackTrace();
+        // }
 
         /*
         try {

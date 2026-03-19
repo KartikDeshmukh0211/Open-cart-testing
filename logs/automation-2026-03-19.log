@@ -1,0 +1,57 @@
+23:46:21.990 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Entering details for login...
+23:46:22.081 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+23:46:22.081 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - Validating Expected Message
+23:46:22.909 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+23:46:22.911 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Validating Expected Message
+23:46:25.010 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+23:46:25.164 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Clicked on My Account
+23:46:25.591 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Clicked on Login
+23:46:25.592 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Entering details for login...
+23:46:25.978 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+23:46:25.978 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Validating Expected Message
+23:46:32.109 [TestNG-tests-2] ERROR testCases.TC002_LoginTest - Test Failed
+23:59:14.661 [TestNG-tests-1] INFO  testCases.TC001_RegisterTest - ***** Starting TC001_RegisterTest *****
+23:59:14.790 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - ***** Starting TC001_RegisterTest *****
+23:59:15.077 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - Clicked on My Account
+23:59:15.183 [TestNG-tests-1] INFO  testCases.TC001_RegisterTest - Clicked on My Account
+23:59:15.528 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - ***** Starting TC001_RegisterTest *****
+23:59:15.648 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - Clicked on My Account
+23:59:15.963 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - Clicked on Register
+23:59:15.971 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - Entering details for registration...
+23:59:16.009 [TestNG-tests-1] INFO  testCases.TC001_RegisterTest - Clicked on Register
+23:59:16.016 [TestNG-tests-1] INFO  testCases.TC001_RegisterTest - Entering details for registration...
+23:59:16.164 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - Clicked on Register
+23:59:16.165 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - Entering details for registration...
+23:59:17.437 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - Clicked on Continue(register)
+23:59:17.437 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - Validating Expected Message
+23:59:17.459 [TestNG-tests-3] INFO  testCases.TC001_RegisterTest - ***** Finished TC001_RegisterTest *****
+
+23:59:18.878 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - Clicked on Continue(register)
+23:59:18.879 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - Validating Expected Message
+23:59:18.916 [TestNG-tests-1] INFO  testCases.TC001_RegisterTest - Clicked on Continue(register)
+23:59:18.916 [TestNG-tests-1] INFO  testCases.TC001_RegisterTest - Validating Expected Message
+23:59:18.920 [TestNG-tests-2] INFO  testCases.TC001_RegisterTest - ***** Finished TC001_RegisterTest *****
+
+23:59:19.045 [TestNG-tests-1] INFO  testCases.TC001_RegisterTest - ***** Finished TC001_RegisterTest *****
+
+23:59:22.182 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+23:59:22.328 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Clicked on My Account
+23:59:22.508 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+23:59:22.638 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - Clicked on My Account
+23:59:22.756 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Clicked on Login
+23:59:22.762 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Entering details for login...
+23:59:23.147 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - Clicked on Login
+23:59:23.148 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - Entering details for login...
+23:59:23.711 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - ***** Starting TC002_LoginTest *****
+23:59:23.863 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Clicked on My Account
+23:59:23.977 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+23:59:23.978 [TestNG-tests-1] INFO  testCases.TC002_LoginTest - Validating Expected Message
+23:59:24.153 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Clicked on Login
+23:59:24.154 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Entering details for login...
+23:59:24.156 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+23:59:24.156 [TestNG-tests-2] INFO  testCases.TC002_LoginTest - Validating Expected Message
+23:59:24.492 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Clicked on Login Button
+23:59:24.492 [TestNG-tests-3] INFO  testCases.TC002_LoginTest - Validating Expected Message
+23:59:34.040 [TestNG-tests-1] ERROR testCases.TC002_LoginTest - Test Failed
+23:59:34.243 [TestNG-tests-2] ERROR testCases.TC002_LoginTest - Test Failed
+23:59:34.511 [TestNG-tests-3] ERROR testCases.TC002_LoginTest - Test Failed
