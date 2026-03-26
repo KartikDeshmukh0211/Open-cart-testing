@@ -23,6 +23,7 @@ import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ThreadGuard;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger; // only import this log4j
@@ -62,8 +63,8 @@ public class BaseClass {
     public Properties p;
 
     @BeforeClass(groups = {"Sanity", "Regression", "Master"})
-    @Parameters({"os", "browser"})
-    public void setup(String os, String br) throws IOException, URISyntaxException{
+    @Parameters({"os", "browser"}) // first os value get passed and stored in String os and then browser value get passed and stored in String br...
+    public void setup(@Optional("Windows") String os, @Optional("chrome")String br) throws IOException, URISyntaxException{
         //Loading properties...
         FileInputStream file = new FileInputStream("./src/test/resources/config.properties");
         p = new Properties();
